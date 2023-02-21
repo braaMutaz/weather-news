@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #1e202b !important;
+}
+.mynav
+{
+    background-color: #1e202b;
+    
+}
+.mynav a
+{
+    color: white;
+}
+.nav-link
+{
+    color: white !important;
+}
+ul li
+{
+    margin-left: 4rem;
+}
+.bannar
+{
+    position: relative;
+    background-color: #09c;
+}
+.bannar-info
+{
+    position: absolute;
+    width: 100%;
+    top: 7%;
+    
+}
+input
+{
+    background-color: #1e202b !important;
+    height: 3rem;
+     border: none !important;
+     border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+}
+.six
+{
+    font-size: 90;
+}
+.oo
+{
+    font-size: 50;
+}
+.cc
+{
+    font-size: 90;
+}
+.wow
+{
+    height: 26rem;
+    background-color: #373b53!important;
+    color: white;
+    border-radius: 1rem;
+}
+.six2
+{
+    font-size: 50;
+}
+.oo2
+{
+    font-size: 30;
+}
+.cc2
+{
+    font-size: 50;
+}
+.logo
+{
+    width: 6rem !important;
+}
+.img-logo
+{
+    width: 5rem;
+}
+.six3
+{
+    font-size: 20;
+}
+.oo3
+{
+    font-size: 15;
+}
+.cc3
+{
+    font-size: 20;
+}
+.banner
+{
+    height: 25rem;
+}

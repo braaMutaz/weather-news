@@ -1,0 +1,82 @@
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div  id="error" class="error w-100 h-100 bg-light flex-nowrap d-flex justify-content-center align-items-center d-block">
+<div class="text-center">
+ 
+  <h1>loading...</h1>
+  <p  class="text-danger fs-5">If the time is too long, check your internet connection</p>
+</div>
+
+  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 mynav">
+    <div class="container">
+      <div class="logo text-light d-flex  ">
+        <a class="navbar-brand   ps-5" href="#"><img class="img-logo" src="img/logo2x.png" alt=""></a>
+        <p class="mt-3">weather</p>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 pe-5 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="bannar">
+      <img class="w-100 banner" src="img/banner.png" alt="">
+     <!-- start -->
+        
+      <div  class="bannar-info">
+        <div class="container ">
+          <input onkeyup="myxmlhttp(this.value)"  placeholder="Find your location" class="w-100 form-control ps-4 text-light"  type="text">
+          <br>
+          <br>
+          <br>
+          <div id="demo" class="row g-4">
+            
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
