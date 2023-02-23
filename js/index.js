@@ -13,6 +13,9 @@ var day3 =[]
 var nextday = findDay+1
 var nextdayx = day[nextday]
 var nextday1 = findDay+2
+
+var dnum = getDay.getDate()
+console.log(dnum);
 var nextdayx1 = day[nextday1]
 function myxmlhttp(con)
 {
@@ -60,7 +63,7 @@ function dispaly()
                </div>
                <div class="col-md-6">
                  <div class="items   d-flex justify-content-center align-items-center">
-                   <p class="pt-3">${forecast[0].date} ${themonth}</p>
+                   <p class="pt-3">${dnum} ${themonth}</p>
                  </div>
                    </div>
                    </div>
