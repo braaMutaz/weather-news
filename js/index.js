@@ -5,7 +5,7 @@ var getmonth = getDay.getMonth()
 var current =[]
 var locat = []
 var month = ['January','February','March','April','May','June','July','August','September','October','November','December',]
-var day = ['Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' ,'Saturday' ]
+var day = ['Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' ,'Saturday' ,'Sunday' , 'Monday  ' ]
 var today= day[findDay]
 var themonth = month[getmonth]
 var day2 =[]
@@ -13,12 +13,7 @@ var day3 =[]
 var nextday = findDay+1
 var nextdayx = day[nextday]
 var nextday1 = findDay+2
-if(nextday1 == 7)
-{
-  nextday1=0
-}
-
-
+console.log(findDay);
 var dnum = getDay.getDate()
 console.log(dnum);
 var nextdayx1 = day[nextday1]
@@ -206,4 +201,3 @@ function dispaly()
    
     
 }
-
